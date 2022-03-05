@@ -60,7 +60,6 @@ font-weight: bold;
   font-weight: 300;
   line-height:25px;
   font-size: 18px;
-
 }
 
 
@@ -155,4 +154,49 @@ padding-top: 60px;
   margin:0;
   line-height: 1.2;
   font-size: 18px;
+}
+.feynman{
+  position: relative;
+  margin-top: 100px;
+  height: 890px;
+}
+
+.feynman__title{
+  width: 648px;
+  text-align: center;
+  margin:0 auto;
+  z-index: 2;
+  line-height: 1.5;
+  font-size: 120px;
+  font-weight: 600;
+}
+.feynman__subtitle{
+  text-align: center;
+  margin:0 auto;
+  z-index: 2;
+  line-height: 51px;
+  font-size: 36px;
+  padding-top: 70px;
+}
+.feynman__illustration{
+  position: absolute;
+  height: 637px;
+  width: 867px;
+  bottom:0;
+  z-index: -1;
+}
+
+.feynman__link{
+  position: absolute;
+  right: 0;
+  top:50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  
+}
+
+.link__decoration{
+  text-decoration: none;
+  color: #2f80ed;
 }
