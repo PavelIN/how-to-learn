@@ -12,6 +12,17 @@ p{
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
+h3,ul{
+  margin: 0;
+  padding-inline-start: 0px;
+}
+li{
+  list-style-type: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
 .header {
   display: flex;
   background-color: #f2f2f2;
@@ -190,6 +201,8 @@ padding-top: 60px;
 }
 
 .feynman__link{
+  text-decoration: none;
+  color: #2f80ed;
   position: absolute;
   top:50%;
   right: 48px;
@@ -251,4 +264,59 @@ background-color: #1f1f1f;
   width: 877px;
   top:0;
   right:-210px;
- }  /*
+ } */
+ 
+ .footer{
+   background-color: #1f1f1f;
+   box-sizing: border-box;
+   min-height: 350px;
+   padding:60px 0 40px;
+ }
+ 
+ .footer__columns{
+   margin: 0 auto;
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   min-height: 250px;
+ }
+
+ .footer_column_content_copyright{
+  display: flex;
+  position: relative;
+  flex-basis:711px;
+ }
+ .logo_place_footer{
+  position: absolute;
+  width: 183px;
+  height: 35px;
+ }
+ .footer__outhor{
+   line-height: 25px;
+   font-size: 18px;
+   color: white;
+   margin: 18px 0;
+   align-self: end;
+ }
+
+.column-links{
+  margin: 20px 0 18px;
+}
+
+.footer__social-icon{
+  height: 16px;
+  width: 16px;
+  padding-right:10px;
+}
+
+.footer__column-heading{
+  color: white;
+  line-height:30px;
+  font-size:18px;
+  font-weight:600;
+}
+
+.column-link{
+  line-height:30px;
+  font-size:18px;
+}
