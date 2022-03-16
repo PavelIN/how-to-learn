@@ -95,7 +95,7 @@
   width: 175px;
   line-height: 18px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: normal;
   color: #2f80ed;
 }
 
@@ -160,10 +160,10 @@
 }
 
 .table__text {
+  margin: 20px 0 0 ;
   z-index: 1;
   line-height: 1.2;
   font-size: 18px;
-  margin-top: 20px;
 }
 
 .feynman {
@@ -306,12 +306,11 @@
 
 .footer__column-link {
   color: white;
-  list-style-type: none;
   line-height: 30px;
   font-size: 18px;
+  text-decoration: none;
 }
 
-.footer__link_theme_dark {
-  color: white;
-  text-decoration: none;
+.footer__list {
+  list-style-type: none;
 }
